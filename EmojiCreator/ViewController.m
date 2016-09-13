@@ -56,6 +56,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // iOS10 beta版有些多肤色的Emoji无法通过字符拼接来实现，所以直接写死在下面
     _test = @{@"👱‍♀️": @"👱🏻‍♀️,👱‍♀️,👱🏼‍♀️,👱🏽‍♀️,👱🏾‍♀️,👱🏿‍♀️",
                @"👳‍♀️": @"👳🏻‍♀️,👳‍♀️,👳🏼‍♀️,👳🏽‍♀️,👳🏾‍♀️,👳🏿‍♀️",
                @"👮‍♀️": @"👮🏻‍♀️,👮‍♀️,👮🏼‍♀️,👮🏽‍♀️,👮🏾‍♀️,👮🏿‍♀️",
@@ -89,7 +90,7 @@
     self.compressedImagePath = [NSHomeDirectory() stringByAppendingString:[NSString stringWithFormat:@"/Documents/emojis/"]];
 
 
-    ////////////////// 重新压缩
+    ////////////////// 导出data里面的图片，重新压缩后再拼接
 
     // 1.
     NSString *dataPath = [[NSBundle mainBundle] pathForResource:@"emojisex" ofType:@"data"];
@@ -101,8 +102,10 @@
     NSString *dataexPlistPath = [[NSBundle mainBundle] pathForResource:@"emojisexdata" ofType:@"plist"];
 
     NSString *outputhPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/output/"];
-//    [self exportImageFromDataPath:dataPath byDataPlist:data91PlistPath byEmojiPlist:emoji91PlistPath saveTo:outputhPath];
-//    [self exportImageFromDataPath:dataPath byDataPlist:dataexPlistPath byEmojiPlist:emojiexPlistPath saveTo:outputhPath];
+    [self exportImageFromDataPath:dataPath byDataPlist:data91PlistPath byEmojiPlist:emoji91PlistPath saveTo:outputhPath];
+    [self exportImageFromDataPath:dataPath byDataPlist:dataexPlistPath byEmojiPlist:emojiexPlistPath saveTo:outputhPath];
+
+    // 用ImageOptim无损压缩
 
     // 2.
     NSString *imagePath = [NSHomeDirectory() stringByAppendingString:@"/Documents/output/"];
@@ -121,7 +124,8 @@
 
     ////////////////// iOS 10 更新步骤
 //    // 1.
-//    [self exportAllEmojiImages];
+    [self exportAllEmojiImages];
+    // 用pngquant 命令行执行有损压缩
 
     // 2.
     NSString *emojis91Path = [[NSBundle mainBundle] pathForResource:@"emojis91" ofType:@"plist"];
@@ -412,11 +416,6 @@
             if ([mask integerValue] == 2 || [mask integerValue] == 6 || [mask integerValue] == 3) {
                 [hasSkinEmojiArray addObject:emojiString];
             }
-            NSString *test = @"🕵️‍♀️,🕵️,🏋️,⛹️";
-            NSArray *array = [test componentsSeparatedByString:@","];
-            if ([array containsObject:emojiString]) {
-                NSLog(@"test");
-            }
         }
     }
 
@@ -426,6 +425,9 @@
     [hasSkinEmojiArray addObject:@"🏊"];
     [hasSkinEmojiArray addObject:@"🏄🏼"];
     [hasSkinEmojiArray addObject:@"🚣"];
+    [hasSkinEmojiArray addObject:@"☝️"];
+    [hasSkinEmojiArray addObject:@"✌️"];
+    [hasSkinEmojiArray addObject:@"✍️"];
     return hasSkinEmojiArray;
 }
 
