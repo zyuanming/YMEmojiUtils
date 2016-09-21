@@ -629,9 +629,9 @@
 		<key>emojiex_0_12.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2641</integer>
+			<integer>2786</integer>
 			<key>offset</key>
-			<integer>0</integer>
+			<integer>6513677</integer>
 		</dict>
 		<key>emojiex_0_120.png</key>
 		<dict>
@@ -3498,7 +3498,7 @@
 			<key>length</key>
 			<integer>1318</integer>
 			<key>offset</key>
-			<integer>6308</integer>
+			<integer>6524791</integer>
 		</dict>
 		<key>emojiex_1_87.png</key>
 		<dict>
@@ -3517,9 +3517,9 @@
 		<key>emojiex_1_89.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2163</integer>
+			<integer>2256</integer>
 			<key>offset</key>
-			<integer>7626</integer>
+			<integer>6519678</integer>
 		</dict>
 		<key>emojiex_1_9.png</key>
 		<dict>
@@ -3531,16 +3531,16 @@
 		<key>emojiex_1_90.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2710</integer>
+			<integer>2857</integer>
 			<key>offset</key>
-			<integer>9789</integer>
+			<integer>6521934</integer>
 		</dict>
 		<key>emojiex_1_91.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1629</integer>
+			<integer>1737</integer>
 			<key>offset</key>
-			<integer>12499</integer>
+			<integer>6517941</integer>
 		</dict>
 		<key>emojiex_1_92.png</key>
 		<dict>
@@ -3559,9 +3559,9 @@
 		<key>emojiex_1_94.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2889</integer>
+			<integer>3031</integer>
 			<key>offset</key>
-			<integer>14128</integer>
+			<integer>6526109</integer>
 		</dict>
 		<key>emojiex_1_95.png</key>
 		<dict>
@@ -3573,9 +3573,9 @@
 		<key>emojiex_1_96.png</key>
 		<dict>
 			<key>length</key>
-			<integer>3453</integer>
+			<integer>3578</integer>
 			<key>offset</key>
-			<integer>17017</integer>
+			<integer>6529140</integer>
 		</dict>
 		<key>emojiex_1_97.png</key>
 		<dict>
@@ -3587,9 +3587,9 @@
 		<key>emojiex_1_98.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2023</integer>
+			<integer>2125</integer>
 			<key>offset</key>
-			<integer>20470</integer>
+			<integer>6532718</integer>
 		</dict>
 		<key>emojiex_1_99.png</key>
 		<dict>
@@ -3927,9 +3927,9 @@
 		<key>emojiex_2_50.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2674</integer>
+			<integer>2832</integer>
 			<key>offset</key>
-			<integer>22493</integer>
+			<integer>6534843</integer>
 		</dict>
 		<key>emojiex_2_51.png</key>
 		<dict>
@@ -4136,7 +4136,7 @@
 			<key>length</key>
 			<integer>1876</integer>
 			<key>offset</key>
-			<integer>25167</integer>
+			<integer>6537675</integer>
 		</dict>
 		<key>emojiex_3_25.png</key>
 		<dict>
@@ -4467,9 +4467,9 @@
 		<key>emojiex_4_13.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2490</integer>
+			<integer>2685</integer>
 			<key>offset</key>
-			<integer>29830</integer>
+			<integer>6543514</integer>
 		</dict>
 		<key>emojiex_4_14.png</key>
 		<dict>
@@ -4481,9 +4481,9 @@
 		<key>emojiex_4_15.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2664</integer>
+			<integer>2803</integer>
 			<key>offset</key>
-			<integer>32320</integer>
+			<integer>6549092</integer>
 		</dict>
 		<key>emojiex_4_16.png</key>
 		<dict>
@@ -4502,9 +4502,9 @@
 		<key>emojiex_4_18.png</key>
 		<dict>
 			<key>length</key>
-			<integer>3836</integer>
+			<integer>3963</integer>
 			<key>offset</key>
-			<integer>34984</integer>
+			<integer>6539551</integer>
 		</dict>
 		<key>emojiex_4_19.png</key>
 		<dict>
@@ -4565,9 +4565,9 @@
 		<key>emojiex_4_21.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2340</integer>
+			<integer>2522</integer>
 			<key>offset</key>
-			<integer>38820</integer>
+			<integer>6553513</integer>
 		</dict>
 		<key>emojiex_4_22.png</key>
 		<dict>
@@ -4847,7 +4847,7 @@
 			<key>length</key>
 			<integer>1618</integer>
 			<key>offset</key>
-			<integer>41160</integer>
+			<integer>6551895</integer>
 		</dict>
 		<key>emojiex_4_4_1.png</key>
 		<dict>
@@ -5006,9 +5006,9 @@
 		<key>emojiex_4_9.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2787</integer>
+			<integer>2893</integer>
 			<key>offset</key>
-			<integer>27043</integer>
+			<integer>6546199</integer>
 		</dict>
 		<key>length</key>
 		<integer>610692</integer>
@@ -5346,9 +5346,9 @@
 		<key>emojiex_5_31.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2693</integer>
+			<integer>2794</integer>
 			<key>offset</key>
-			<integer>42778</integer>
+			<integer>6561545</integer>
 		</dict>
 		<key>emojiex_5_32.png</key>
 		<dict>
@@ -5388,9 +5388,9 @@
 		<key>emojiex_5_37.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2724</integer>
+			<integer>2807</integer>
 			<key>offset</key>
-			<integer>45471</integer>
+			<integer>6564339</integer>
 		</dict>
 		<key>emojiex_5_38.png</key>
 		<dict>
@@ -5402,9 +5402,9 @@
 		<key>emojiex_5_39.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2409</integer>
+			<integer>2491</integer>
 			<key>offset</key>
-			<integer>48195</integer>
+			<integer>6567146</integer>
 		</dict>
 		<key>emojiex_5_4.png</key>
 		<dict>
@@ -5430,9 +5430,9 @@
 		<key>emojiex_5_42.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2457</integer>
+			<integer>2561</integer>
 			<key>offset</key>
-			<integer>50604</integer>
+			<integer>6556035</integer>
 		</dict>
 		<key>emojiex_5_43.png</key>
 		<dict>
@@ -5549,9 +5549,9 @@
 		<key>emojiex_5_58.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2811</integer>
+			<integer>2949</integer>
 			<key>offset</key>
-			<integer>53061</integer>
+			<integer>6558596</integer>
 		</dict>
 		<key>emojiex_5_59.png</key>
 		<dict>
@@ -5696,9 +5696,9 @@
 		<key>emojiex_5_77.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2884</integer>
+			<integer>3006</integer>
 			<key>offset</key>
-			<integer>55872</integer>
+			<integer>6569637</integer>
 		</dict>
 		<key>emojiex_5_78.png</key>
 		<dict>
@@ -5875,9 +5875,9 @@
 		<key>emojiex_6_0.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2235</integer>
+			<integer>2349</integer>
 			<key>offset</key>
-			<integer>58756</integer>
+			<integer>6654654</integer>
 		</dict>
 		<key>emojiex_6_1.png</key>
 		<dict>
@@ -5959,9 +5959,9 @@
 		<key>emojiex_6_109.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2695</integer>
+			<integer>2854</integer>
 			<key>offset</key>
-			<integer>67663</integer>
+			<integer>6581369</integer>
 		</dict>
 		<key>emojiex_6_11.png</key>
 		<dict>
@@ -6015,16 +6015,16 @@
 		<key>emojiex_6_116.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2186</integer>
+			<integer>2271</integer>
 			<key>offset</key>
-			<integer>70358</integer>
+			<integer>6717441</integer>
 		</dict>
 		<key>emojiex_6_117.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2364</integer>
+			<integer>2485</integer>
 			<key>offset</key>
-			<integer>72544</integer>
+			<integer>6698908</integer>
 		</dict>
 		<key>emojiex_6_118.png</key>
 		<dict>
@@ -6185,7 +6185,7 @@
 			<key>length</key>
 			<integer>1880</integer>
 			<key>offset</key>
-			<integer>74908</integer>
+			<integer>6715561</integer>
 		</dict>
 		<key>emojiex_6_139.png</key>
 		<dict>
@@ -6197,9 +6197,9 @@
 		<key>emojiex_6_14.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2969</integer>
+			<integer>3066</integer>
 			<key>offset</key>
-			<integer>63538</integer>
+			<integer>6585907</integer>
 		</dict>
 		<key>emojiex_6_140.png</key>
 		<dict>
@@ -6267,9 +6267,9 @@
 		<key>emojiex_6_149.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2976</integer>
+			<integer>3112</integer>
 			<key>offset</key>
-			<integer>76788</integer>
+			<integer>6635396</integer>
 		</dict>
 		<key>emojiex_6_15.png</key>
 		<dict>
@@ -6281,9 +6281,9 @@
 		<key>emojiex_6_150.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2684</integer>
+			<integer>2808</integer>
 			<key>offset</key>
-			<integer>79764</integer>
+			<integer>6701393</integer>
 		</dict>
 		<key>emojiex_6_151.png</key>
 		<dict>
@@ -6316,9 +6316,9 @@
 		<key>emojiex_6_155.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2216</integer>
+			<integer>2337</integer>
 			<key>offset</key>
-			<integer>82448</integer>
+			<integer>6627572</integer>
 		</dict>
 		<key>emojiex_6_156.png</key>
 		<dict>
@@ -6339,7 +6339,7 @@
 			<key>length</key>
 			<integer>1686</integer>
 			<key>offset</key>
-			<integer>84664</integer>
+			<integer>6588973</integer>
 		</dict>
 		<key>emojiex_6_159.png</key>
 		<dict>
@@ -6367,7 +6367,7 @@
 			<key>length</key>
 			<integer>1773</integer>
 			<key>offset</key>
-			<integer>86350</integer>
+			<integer>6620789</integer>
 		</dict>
 		<key>emojiex_6_162.png</key>
 		<dict>
@@ -6379,9 +6379,9 @@
 		<key>emojiex_6_163.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2314</integer>
+			<integer>2422</integer>
 			<key>offset</key>
-			<integer>88123</integer>
+			<integer>6597070</integer>
 		</dict>
 		<key>emojiex_6_164.png</key>
 		<dict>
@@ -6393,16 +6393,16 @@
 		<key>emojiex_6_165.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2676</integer>
+			<integer>2779</integer>
 			<key>offset</key>
-			<integer>90437</integer>
+			<integer>6721100</integer>
 		</dict>
 		<key>emojiex_6_166.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2540</integer>
+			<integer>2628</integer>
 			<key>offset</key>
-			<integer>93113</integer>
+			<integer>6704201</integer>
 		</dict>
 		<key>emojiex_6_167.png</key>
 		<dict>
@@ -6423,7 +6423,7 @@
 			<key>length</key>
 			<integer>1812</integer>
 			<key>offset</key>
-			<integer>95653</integer>
+			<integer>6665392</integer>
 		</dict>
 		<key>emojiex_6_17.png</key>
 		<dict>
@@ -6458,14 +6458,14 @@
 			<key>length</key>
 			<integer>1680</integer>
 			<key>offset</key>
-			<integer>97465</integer>
+			<integer>6685176</integer>
 		</dict>
 		<key>emojiex_6_174.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1646</integer>
 			<key>offset</key>
-			<integer>99145</integer>
+			<integer>6676330</integer>
 		</dict>
 		<key>emojiex_6_175.png</key>
 		<dict>
@@ -6486,7 +6486,7 @@
 			<key>length</key>
 			<integer>1816</integer>
 			<key>offset</key>
-			<integer>100791</integer>
+			<integer>6622562</integer>
 		</dict>
 		<key>emojiex_6_178.png</key>
 		<dict>
@@ -6514,7 +6514,7 @@
 			<key>length</key>
 			<integer>1674</integer>
 			<key>offset</key>
-			<integer>102607</integer>
+			<integer>6668360</integer>
 		</dict>
 		<key>emojiex_6_181.png</key>
 		<dict>
@@ -6575,9 +6575,9 @@
 		<key>emojiex_6_189.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2076</integer>
+			<integer>2176</integer>
 			<key>offset</key>
-			<integer>104281</integer>
+			<integer>6689035</integer>
 		</dict>
 		<key>emojiex_6_19.png</key>
 		<dict>
@@ -6589,72 +6589,72 @@
 		<key>emojiex_6_190.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2247</integer>
+			<integer>2356</integer>
 			<key>offset</key>
-			<integer>106357</integer>
+			<integer>6601156</integer>
 		</dict>
 		<key>emojiex_6_191.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1950</integer>
+			<integer>2050</integer>
 			<key>offset</key>
-			<integer>108604</integer>
+			<integer>6590659</integer>
 		</dict>
 		<key>emojiex_6_192.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2417</integer>
+			<integer>2513</integer>
 			<key>offset</key>
-			<integer>110554</integer>
+			<integer>6574527</integer>
 		</dict>
 		<key>emojiex_6_193.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2304</integer>
+			<integer>2394</integer>
 			<key>offset</key>
-			<integer>112971</integer>
+			<integer>6710328</integer>
 		</dict>
 		<key>emojiex_6_194.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2251</integer>
+			<integer>2361</integer>
 			<key>offset</key>
-			<integer>115275</integer>
+			<integer>6693937</integer>
 		</dict>
 		<key>emojiex_6_195.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1903</integer>
+			<integer>1993</integer>
 			<key>offset</key>
-			<integer>117526</integer>
+			<integer>6679853</integer>
 		</dict>
 		<key>emojiex_6_196.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2008</integer>
+			<integer>2107</integer>
 			<key>offset</key>
-			<integer>119429</integer>
+			<integer>6671557</integer>
 		</dict>
 		<key>emojiex_6_197.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2003</integer>
+			<integer>2097</integer>
 			<key>offset</key>
-			<integer>121437</integer>
+			<integer>6658651</integer>
 		</dict>
 		<key>emojiex_6_198.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2221</integer>
+			<integer>2323</integer>
 			<key>offset</key>
-			<integer>123440</integer>
+			<integer>6642292</integer>
 		</dict>
 		<key>emojiex_6_199.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2208</integer>
+			<integer>2338</integer>
 			<key>offset</key>
-			<integer>125661</integer>
+			<integer>6617450</integer>
 		</dict>
 		<key>emojiex_6_2.png</key>
 		<dict>
@@ -6673,9 +6673,9 @@
 		<key>emojiex_6_200.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2035</integer>
+			<integer>2134</integer>
 			<key>offset</key>
-			<integer>127869</integer>
+			<integer>6606526</integer>
 		</dict>
 		<key>emojiex_6_201.png</key>
 		<dict>
@@ -6708,9 +6708,9 @@
 		<key>emojiex_6_205.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2062</integer>
+			<integer>2179</integer>
 			<key>offset</key>
-			<integer>129904</integer>
+			<integer>6686856</integer>
 		</dict>
 		<key>emojiex_6_206.png</key>
 		<dict>
@@ -6736,9 +6736,9 @@
 		<key>emojiex_6_209.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1382</integer>
+			<integer>1477</integer>
 			<key>offset</key>
-			<integer>131966</integer>
+			<integer>6624378</integer>
 		</dict>
 		<key>emojiex_6_21.png</key>
 		<dict>
@@ -6750,9 +6750,9 @@
 		<key>emojiex_6_210.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1307</integer>
+			<integer>1418</integer>
 			<key>offset</key>
-			<integer>133348</integer>
+			<integer>6691211</integer>
 		</dict>
 		<key>emojiex_6_211.png</key>
 		<dict>
@@ -6801,21 +6801,21 @@
 			<key>length</key>
 			<integer>1330</integer>
 			<key>offset</key>
-			<integer>134655</integer>
+			<integer>6595740</integer>
 		</dict>
 		<key>emojiex_6_218.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1368</integer>
 			<key>offset</key>
-			<integer>135985</integer>
+			<integer>6578468</integer>
 		</dict>
 		<key>emojiex_6_219.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1388</integer>
 			<key>offset</key>
-			<integer>137353</integer>
+			<integer>6719712</integer>
 		</dict>
 		<key>emojiex_6_22.png</key>
 		<dict>
@@ -6829,49 +6829,49 @@
 			<key>length</key>
 			<integer>1383</integer>
 			<key>offset</key>
-			<integer>138741</integer>
+			<integer>6632404</integer>
 		</dict>
 		<key>emojiex_6_221.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1380</integer>
+			<integer>1504</integer>
 			<key>offset</key>
-			<integer>140124</integer>
+			<integer>6612930</integer>
 		</dict>
 		<key>emojiex_6_222.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1369</integer>
+			<integer>1487</integer>
 			<key>offset</key>
-			<integer>141504</integer>
+			<integer>6603512</integer>
 		</dict>
 		<key>emojiex_6_223.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1350</integer>
+			<integer>1463</integer>
 			<key>offset</key>
-			<integer>142873</integer>
+			<integer>6594277</integer>
 		</dict>
 		<key>emojiex_6_224.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1321</integer>
+			<integer>1428</integer>
 			<key>offset</key>
-			<integer>144223</integer>
+			<integer>6577040</integer>
 		</dict>
 		<key>emojiex_6_225.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1411</integer>
+			<integer>1518</integer>
 			<key>offset</key>
-			<integer>145544</integer>
+			<integer>6714043</integer>
 		</dict>
 		<key>emojiex_6_226.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1362</integer>
+			<integer>1475</integer>
 			<key>offset</key>
-			<integer>146955</integer>
+			<integer>6696298</integer>
 		</dict>
 		<key>emojiex_6_227.png</key>
 		<dict>
@@ -6883,16 +6883,16 @@
 		<key>emojiex_6_228.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1430</integer>
+			<integer>1531</integer>
 			<key>offset</key>
-			<integer>148317</integer>
+			<integer>6673664</integer>
 		</dict>
 		<key>emojiex_6_229.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1475</integer>
+			<integer>1572</integer>
 			<key>offset</key>
-			<integer>149747</integer>
+			<integer>6661915</integer>
 		</dict>
 		<key>emojiex_6_23.png</key>
 		<dict>
@@ -6906,14 +6906,14 @@
 			<key>length</key>
 			<integer>1453</integer>
 			<key>offset</key>
-			<integer>151222</integer>
+			<integer>6723879</integer>
 		</dict>
 		<key>emojiex_6_231.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1441</integer>
 			<key>offset</key>
-			<integer>152675</integer>
+			<integer>6708242</integer>
 		</dict>
 		<key>emojiex_6_232.png</key>
 		<dict>
@@ -6939,37 +6939,37 @@
 		<key>emojiex_6_235.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1562</integer>
+			<integer>1669</integer>
 			<key>offset</key>
-			<integer>154116</integer>
+			<integer>6652985</integer>
 		</dict>
 		<key>emojiex_6_236.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1609</integer>
 			<key>offset</key>
-			<integer>155678</integer>
+			<integer>6633787</integer>
 		</dict>
 		<key>emojiex_6_237.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1276</integer>
 			<key>offset</key>
-			<integer>157287</integer>
+			<integer>6614434</integer>
 		</dict>
 		<key>emojiex_6_238.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1527</integer>
 			<key>offset</key>
-			<integer>158563</integer>
+			<integer>6604999</integer>
 		</dict>
 		<key>emojiex_6_239.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1568</integer>
 			<key>offset</key>
-			<integer>160090</integer>
+			<integer>6592709</integer>
 		</dict>
 		<key>emojiex_6_24.png</key>
 		<dict>
@@ -6983,42 +6983,42 @@
 			<key>length</key>
 			<integer>1395</integer>
 			<key>offset</key>
-			<integer>161658</integer>
+			<integer>6663997</integer>
 		</dict>
 		<key>emojiex_6_241.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1582</integer>
 			<key>offset</key>
-			<integer>163053</integer>
+			<integer>6646517</integer>
 		</dict>
 		<key>emojiex_6_242.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1717</integer>
 			<key>offset</key>
-			<integer>164635</integer>
+			<integer>6625855</integer>
 		</dict>
 		<key>emojiex_6_243.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1392</integer>
 			<key>offset</key>
-			<integer>166352</integer>
+			<integer>6608660</integer>
 		</dict>
 		<key>emojiex_6_244.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1664</integer>
 			<key>offset</key>
-			<integer>167744</integer>
+			<integer>6599492</integer>
 		</dict>
 		<key>emojiex_6_245.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1684</integer>
 			<key>offset</key>
-			<integer>169408</integer>
+			<integer>6584223</integer>
 		</dict>
 		<key>emojiex_6_246.png</key>
 		<dict>
@@ -7067,7 +7067,7 @@
 			<key>length</key>
 			<integer>1533</integer>
 			<key>offset</key>
-			<integer>171092</integer>
+			<integer>6579836</integer>
 		</dict>
 		<key>emojiex_6_252.png</key>
 		<dict>
@@ -7107,9 +7107,9 @@
 		<key>emojiex_6_257.png</key>
 		<dict>
 			<key>length</key>
-			<integer>615</integer>
+			<integer>669</integer>
 			<key>offset</key>
-			<integer>172625</integer>
+			<integer>6648099</integer>
 		</dict>
 		<key>emojiex_6_258.png</key>
 		<dict>
@@ -7123,7 +7123,7 @@
 			<key>length</key>
 			<integer>815</integer>
 			<key>offset</key>
-			<integer>173240</integer>
+			<integer>6610052</integer>
 		</dict>
 		<key>emojiex_6_26.png</key>
 		<dict>
@@ -7137,7 +7137,7 @@
 			<key>length</key>
 			<integer>917</integer>
 			<key>offset</key>
-			<integer>174055</integer>
+			<integer>6684259</integer>
 		</dict>
 		<key>emojiex_6_261.png</key>
 		<dict>
@@ -7151,21 +7151,21 @@
 			<key>length</key>
 			<integer>510</integer>
 			<key>offset</key>
-			<integer>174972</integer>
+			<integer>6663487</integer>
 		</dict>
 		<key>emojiex_6_263.png</key>
 		<dict>
 			<key>length</key>
-			<integer>840</integer>
+			<integer>1018</integer>
 			<key>offset</key>
-			<integer>175482</integer>
+			<integer>6645499</integer>
 		</dict>
 		<key>emojiex_6_264.png</key>
 		<dict>
 			<key>length</key>
-			<integer>834</integer>
+			<integer>1001</integer>
 			<key>offset</key>
-			<integer>176322</integer>
+			<integer>6619788</integer>
 		</dict>
 		<key>emojiex_6_265.png</key>
 		<dict>
@@ -7198,9 +7198,9 @@
 		<key>emojiex_6_269.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1338</integer>
+			<integer>1413</integer>
 			<key>offset</key>
-			<integer>177156</integer>
+			<integer>6706829</integer>
 		</dict>
 		<key>emojiex_6_27.png</key>
 		<dict>
@@ -7214,7 +7214,7 @@
 			<key>length</key>
 			<integer>821</integer>
 			<key>offset</key>
-			<integer>178494</integer>
+			<integer>6615710</integer>
 		</dict>
 		<key>emojiex_6_271.png</key>
 		<dict>
@@ -7263,7 +7263,7 @@
 			<key>length</key>
 			<integer>1877</integer>
 			<key>offset</key>
-			<integer>179315</integer>
+			<integer>6677976</integer>
 		</dict>
 		<key>emojiex_6_278.png</key>
 		<dict>
@@ -7324,9 +7324,9 @@
 		<key>emojiex_6_285.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2162</integer>
+			<integer>2274</integer>
 			<key>offset</key>
-			<integer>181192</integer>
+			<integer>6640018</integer>
 		</dict>
 		<key>emojiex_6_286.png</key>
 		<dict>
@@ -7368,21 +7368,21 @@
 			<key>length</key>
 			<integer>1532</integer>
 			<key>offset</key>
-			<integer>183354</integer>
+			<integer>6651453</integer>
 		</dict>
 		<key>emojiex_6_291.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2411</integer>
+			<integer>2495</integer>
 			<key>offset</key>
-			<integer>184886</integer>
+			<integer>6629909</integer>
 		</dict>
 		<key>emojiex_6_292.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1988</integer>
+			<integer>2063</integer>
 			<key>offset</key>
-			<integer>187297</integer>
+			<integer>6610867</integer>
 		</dict>
 		<key>emojiex_6_293.png</key>
 		<dict>
@@ -7403,35 +7403,35 @@
 			<key>length</key>
 			<integer>1208</integer>
 			<key>offset</key>
-			<integer>189285</integer>
+			<integer>6573319</integer>
 		</dict>
 		<key>emojiex_6_296.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1321</integer>
 			<key>offset</key>
-			<integer>190493</integer>
+			<integer>6712722</integer>
 		</dict>
 		<key>emojiex_6_297.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1308</integer>
 			<key>offset</key>
-			<integer>191814</integer>
+			<integer>6692629</integer>
 		</dict>
 		<key>emojiex_6_298.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1227</integer>
 			<key>offset</key>
-			<integer>193122</integer>
+			<integer>6681846</integer>
 		</dict>
 		<key>emojiex_6_299.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1409</integer>
+			<integer>1523</integer>
 			<key>offset</key>
-			<integer>194349</integer>
+			<integer>6670034</integer>
 		</dict>
 		<key>emojiex_6_3.png</key>
 		<dict>
@@ -7452,14 +7452,14 @@
 			<key>length</key>
 			<integer>1648</integer>
 			<key>offset</key>
-			<integer>195758</integer>
+			<integer>6657003</integer>
 		</dict>
 		<key>emojiex_6_301.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1510</integer>
 			<key>offset</key>
-			<integer>197406</integer>
+			<integer>6638508</integer>
 		</dict>
 		<key>emojiex_6_302.png</key>
 		<dict>
@@ -7534,58 +7534,58 @@
 		<key>emojiex_6_311.png</key>
 		<dict>
 			<key>length</key>
-			<integer>603</integer>
+			<integer>676</integer>
 			<key>offset</key>
-			<integer>198916</integer>
+			<integer>6572643</integer>
 		</dict>
 		<key>emojiex_6_312.png</key>
 		<dict>
 			<key>length</key>
-			<integer>572</integer>
+			<integer>645</integer>
 			<key>offset</key>
-			<integer>199519</integer>
+			<integer>6709683</integer>
 		</dict>
 		<key>emojiex_6_313.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1135</integer>
 			<key>offset</key>
-			<integer>200091</integer>
+			<integer>6697773</integer>
 		</dict>
 		<key>emojiex_6_314.png</key>
 		<dict>
 			<key>length</key>
 			<integer>1186</integer>
 			<key>offset</key>
-			<integer>201226</integer>
+			<integer>6683073</integer>
 		</dict>
 		<key>emojiex_6_315.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1004</integer>
+			<integer>1135</integer>
 			<key>offset</key>
-			<integer>202412</integer>
+			<integer>6675195</integer>
 		</dict>
 		<key>emojiex_6_316.png</key>
 		<dict>
 			<key>length</key>
-			<integer>1027</integer>
+			<integer>1167</integer>
 			<key>offset</key>
-			<integer>203416</integer>
+			<integer>6660748</integer>
 		</dict>
 		<key>emojiex_6_317.png</key>
 		<dict>
 			<key>length</key>
-			<integer>782</integer>
+			<integer>884</integer>
 			<key>offset</key>
-			<integer>204443</integer>
+			<integer>6644615</integer>
 		</dict>
 		<key>emojiex_6_318.png</key>
 		<dict>
 			<key>length</key>
-			<integer>774</integer>
+			<integer>919</integer>
 			<key>offset</key>
-			<integer>205225</integer>
+			<integer>6616531</integer>
 		</dict>
 		<key>emojiex_6_319.png</key>
 		<dict>
@@ -7982,9 +7982,9 @@
 		<key>emojiex_6_6.png</key>
 		<dict>
 			<key>length</key>
-			<integer>2547</integer>
+			<integer>2685</integer>
 			<key>offset</key>
-			<integer>60991</integer>
+			<integer>6648768</integer>
 		</dict>
 		<key>emojiex_6_60.png</key>
 		<dict>
@@ -8075,7 +8075,7 @@
 			<key>length</key>
 			<integer>1156</integer>
 			<key>offset</key>
-			<integer>66507</integer>
+			<integer>6667204</integer>
 		</dict>
 		<key>emojiex_6_72.png</key>
 		<dict>

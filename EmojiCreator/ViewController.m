@@ -56,7 +56,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // iOS10 beta版有些多肤色的Emoji无法通过字符拼接来实现，所以直接写死在下面
+
+    // iOS10 beta版有些多肤色的Emoji无法通过简单的字符拼接来实现，因为iOS10添加支持了一种全新的emoji构造方式：
+    // 例如，通过一个基本的emoji 加上一个 “♀” 女生标记来构造一个全新的对应的女生版的emoji
     _test = @{@"👱‍♀️": @"👱🏻‍♀️,👱‍♀️,👱🏼‍♀️,👱🏽‍♀️,👱🏾‍♀️,👱🏿‍♀️",
                @"👳‍♀️": @"👳🏻‍♀️,👳‍♀️,👳🏼‍♀️,👳🏽‍♀️,👳🏾‍♀️,👳🏿‍♀️",
                @"👮‍♀️": @"👮🏻‍♀️,👮‍♀️,👮🏼‍♀️,👮🏽‍♀️,👮🏾‍♀️,👮🏿‍♀️",
@@ -102,8 +104,8 @@
     NSString *dataexPlistPath = [[NSBundle mainBundle] pathForResource:@"emojisexdata" ofType:@"plist"];
 
     NSString *outputhPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/output/"];
-//    [self exportImageFromDataPath:dataPath byDataPlist:data91PlistPath byEmojiPlist:emoji91PlistPath saveTo:outputhPath];
-//    [self exportImageFromDataPath:dataPath byDataPlist:dataexPlistPath byEmojiPlist:emojiexPlistPath saveTo:outputhPath];
+    [self exportImageFromDataPath:dataPath byDataPlist:data91PlistPath byEmojiPlist:emoji91PlistPath saveTo:outputhPath];
+    [self exportImageFromDataPath:dataPath byDataPlist:dataexPlistPath byEmojiPlist:emojiexPlistPath saveTo:outputhPath];
 
     // 用ImageOptim无损压缩
 
@@ -122,8 +124,9 @@
                     baseEmojiDataPlistPath:newData91PlistPath];
 
 
+
     ////////////////// iOS 10 更新步骤
-//    // 1.
+    // 1.
     [self exportAllEmojiImages];
     // 用pngquant 命令行执行有损压缩
 
@@ -131,7 +134,9 @@
     NSString *emojis91Path = [[NSBundle mainBundle] pathForResource:@"emojis91" ofType:@"plist"];
     NSString *jsonPath = [[NSBundle mainBundle] pathForResource:@"Category-Emoji" ofType:@"json"];
     NSArray *newAddEmojiList = [self exportNewEmojisListInJsonPath:jsonPath fromEmojiListPath:emojis91Path];
-    NSString *newDesignEmojis = @"🔫,😀,😬,😁,😂,😃,😄,😅,😆,😇,😉,😊,🙂,🙃,☺️,😋,😌,😍,😘,😗,😙,😚,😜,😝,😛,🤑,🤓,😎,🤗,😏,😶,😐,😑,😒,🙄,🤔,😳,😞,😟,😠,😡,😔,😕,🙁,☹️,😣,😖,😫,😩,😤,😮,😱,😨,😰,😯,😦,😧,😢,😥,😪,😓,😭,😵,😲,🤐,😷,🤒,🤕,😴,🙌,👏,👍,👎,👊,✊,👋,👈,👉,👆,👇,👌,☝️,✌️,✋,🖐,👐,💪,🙏,🖖,🤘,🖕,✍️,💅,👄,👅,👂,👃,👶,👦,👧,👨,👩,👱‍♀️,👱,👴,👵,👲,👳‍♀️,👳,👮‍♀️,👮,👷‍♀️,👷,💂‍♀️,💂,🕵️‍♀️,🕵️,🎅,👸,👰,👼,🙇‍♀️,🙇,💁,💁‍♂️,🙅,🙅‍♂️,🙆,🙆‍♂️,🙋,🙋‍♂️,🙎,🙎‍♂️,🙍,🙍‍♂️,💇,💇‍♂️,💆,💆‍♂️,💃,👯,👯‍♂️,🚶‍♀️,🚶,🏃‍♀️,🏃,👫,👭,👬,💑,👩‍❤️‍👩,👨‍❤️‍👨,💏,👩‍❤️‍💋‍👩,👨‍❤️‍💋‍👨,👪,👨‍👩‍👧,👨‍👩‍👧‍👦,👨‍👩‍👦‍👦,👨‍👩‍👧‍👧,👩‍👩‍👦,👩‍👩‍👧,👩‍👩‍👧‍👦,👩‍👩‍👦‍👦,👩‍👩‍👧‍👧,👨‍👨‍👦,👨‍👨‍👧,👨‍👨‍👧‍👦,👨‍👨‍👦‍👦,👨‍👨‍👧‍👧,👩‍👦,👩‍👧,👩‍👧‍👦,👩‍👦‍👦,👩‍👧‍👧,👨‍👦,👨‍👧,👨‍👧‍👦,👨‍👦‍👦,👨‍👧‍👧,🚵,🏊,🚣,🏄";
+    // 具体新增的Emoji，可以查看： http://emojipedia.org/apple/ios-10.0/new+changed/
+    NSString *newDesignEmojis = @"🔫,😀,😬,😁,😂,😃,😄,😅,😆,😇,😉,😊,🙂,🙃,☺️,😋,😌,😍,😘,😗,😙,😚,😜,😝,😛,🤑,🤓,😎,🤗,😏,😶,😐,😑,😒,🙄,🤔,😳,😞,😟,😠,😡,😔,😕,🙁,☹️,😣,😖,😫,😩,😤,😮,😱,😨,😰,😯,😦,😧,😢,😥,😪,😓,😭,😵,😲,🤐,😷,🤒,🤕,😴,🙌,👏,👍,👎,👊,✊,👋,👈,👉,👆,👇,👌,☝️,✌️,✋,🖐,👐,💪,🙏,🖖,🤘,🖕,✍️,💅,👄,👅,👂,👃,👶,👦,👧,👨,👩,👱‍♀️,👱,👴,👵,👲,👳‍♀️,👳,👮‍♀️,👮,👷‍♀️,👷,💂‍♀️,💂,🕵️‍♀️,🕵️,🎅,👸,👰,👼,🙇‍♀️,🙇,💁,💁‍♂️,🙅,🙅‍♂️,🙆,🙆‍♂️,🙋,🙋‍♂️,🙎,🙎‍♂️,🙍,🙍‍♂️,💇,💇‍♂️,💆,💆‍♂️,💃,👯,👯‍♂️,🚶‍♀️,🚶,🏃‍♀️,🏃,👫,👭,👬,💑,👩‍❤️‍👩,👨‍❤️‍👨,💏,👩‍❤️‍💋‍👩,👨‍❤️‍💋‍👨,👪,👨‍👩‍👧,👨‍👩‍👧‍👦,👨‍👩‍👦‍👦,👨‍👩‍👧‍👧,👩‍👩‍👦,👩‍👩‍👧,👩‍👩‍👧‍👦,👩‍👩‍👦‍👦,👩‍👩‍👧‍👧,👨‍👨‍👦,👨‍👨‍👧,👨‍👨‍👧‍👦,👨‍👨‍👦‍👦,👨‍👨‍👧‍👧,👩‍👦,👩‍👧,👩‍👧‍👦,👩‍👦‍👦,👩‍👧‍👧,👨‍👦,👨‍👧,👨‍👧‍👦,👨‍👦‍👦,👨‍👧‍👧,🚵,🏊,🚣,🏄，🇷🇴，😈，👿，💀，👽，😾，🛁";
+
     NSArray *newDesignEmojisList = [newDesignEmojis componentsSeparatedByString:@","];
     NSMutableArray *newEmojis = [NSMutableArray arrayWithArray:newAddEmojiList];
     [newEmojis addObjectsFromArray:newDesignEmojisList];
@@ -413,7 +418,13 @@
             NSNumber *mask = [emoji valueForKey:@"variantMask"];
             id emojiString = (NSString *)[emoji valueForKey:@"emojiString"];
 
-            if ([mask integerValue] == 2 || [mask integerValue] == 6 || [mask integerValue] == 3) {
+            if ([mask integerValue] == 2) {
+                [hasSkinEmojiArray addObject:emojiString];
+            }
+            if ([mask integerValue] == 6) {
+                [hasSkinEmojiArray addObject:emojiString];
+            }
+            if ([mask integerValue] == 3) {
                 [hasSkinEmojiArray addObject:emojiString];
             }
         }
@@ -1038,10 +1049,14 @@
                     [dataHandle seekToFileOffset:offset];
                     NSData *imageData = [dataHandle readDataOfLength:length];
 
+                    NSString *subSymbol = subEmojis[j][@"symbol"];
                     [[NSFileManager defaultManager] createDirectoryAtPath:savePath withIntermediateDirectories:YES attributes:nil error:nil];
-                    NSString *imageName = [NSString stringWithFormat:@"%@_%i.png", subEmojis[j][@"symbol"], j];
+                    NSString *imageName = [NSString stringWithFormat:@"%@_%i.png", subSymbol, j];
                     NSString *imagePath = [savePath stringByAppendingString:imageName];
                     [imageData writeToFile:imagePath atomically:true];
+                    if (imageData.length == 0) {
+                        NSLog(@"export image for symbol %@ fail !!!" , subSymbol);
+                    }
                 }
             } else {
                 NSDictionary *currEmojiDataInfo = [self findEmojiDataInfoIn:emojisDataPlist byImageName:imageName];
@@ -1050,10 +1065,14 @@
                 [dataHandle seekToFileOffset:offset];
                 NSData *imageData = [dataHandle readDataOfLength:length];
 
+                NSString *currSymbol = dic[@"symbol"];
                 [[NSFileManager defaultManager] createDirectoryAtPath:savePath withIntermediateDirectories:YES attributes:nil error:nil];
-                NSString *imageName = [NSString stringWithFormat:@"%@_%i.png", dic[@"symbol"], 1];
+                NSString *imageName = [NSString stringWithFormat:@"%@_%i.png", currSymbol, 1];
                 NSString *imagePath = [savePath stringByAppendingString:imageName];
                 [imageData writeToFile:imagePath atomically:true];
+                if (imageData.length == 0) {
+                    NSLog(@"export image for symbol %@ fail !!!" , currSymbol);
+                }
             }
         }
     }
