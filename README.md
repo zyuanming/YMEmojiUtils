@@ -22,4 +22,4 @@ related article by Sougou Input (http://mp.weixin.qq.com/s?__biz=MzA4MzEwOTkyMQ=
 
 ###License
 
-Released under [MIT License.](https://github.com/zyuanming/YMEmojiUtils/master/LICENSE)
+Released under [MIT License.](https://github.com/zyuanming/YMEmojiUtils/blob/master/LICENSE)
