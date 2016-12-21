@@ -15,7 +15,7 @@
 		6012D8091D7D9E1700297AA5 /* emojis91data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6012D8061D7D9E1700297AA5 /* emojis91data.plist */; };
 		6012D80A1D7D9E1700297AA5 /* emojisex.data in Resources */ = {isa = PBXBuildFile; fileRef = 6012D8071D7D9E1700297AA5 /* emojisex.data */; };
 		6012D80B1D7D9E1700297AA5 /* emojisexdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6012D8081D7D9E1700297AA5 /* emojisexdata.plist */; };
-		604F2E181D780E7E0075A339 /* Category-Emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = 604F2E171D780E7E0075A339 /* Category-Emoji.json */; };
+		604F2E181D780E7E0075A339 /* Category-Emoji_10.0.json in Resources */ = {isa = PBXBuildFile; fileRef = 604F2E171D780E7E0075A339 /* Category-Emoji_10.0.json */; };
 		609507D21BC7A09C000D88EC /* Category-Emoji_9.1.json in Resources */ = {isa = PBXBuildFile; fileRef = 609507D11BC7A09C000D88EC /* Category-Emoji_9.1.json */; };
 		60BF6FCA1BC796C000DC3D63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BF6FC91BC796C000DC3D63 /* main.m */; };
 		60BF6FCD1BC796C000DC3D63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BF6FCC1BC796C000DC3D63 /* AppDelegate.m */; };
@@ -23,6 +23,10 @@
 		60BF6FD31BC796C000DC3D63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BF6FD11BC796C000DC3D63 /* Main.storyboard */; };
 		60BF6FD51BC796C000DC3D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BF6FD41BC796C000DC3D63 /* Assets.xcassets */; };
 		60BF6FD81BC796C000DC3D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BF6FD61BC796C000DC3D63 /* LaunchScreen.storyboard */; };
+		60CBECCC1E07BBB600F17FA9 /* emojis10.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60CBECCA1E07BBB600F17FA9 /* emojis10.plist */; };
+		60CBECCD1E07BBB600F17FA9 /* emojis10data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60CBECCB1E07BBB600F17FA9 /* emojis10data.plist */; };
+		60CBECCF1E07BBD000F17FA9 /* Category-Emoji_10.2.json in Resources */ = {isa = PBXBuildFile; fileRef = 60CBECCE1E07BBD000F17FA9 /* Category-Emoji_10.2.json */; };
+		60CBECD11E07CAD400F17FA9 /* emojisex_10.data in Resources */ = {isa = PBXBuildFile; fileRef = 60CBECD01E07C1F800F17FA9 /* emojisex_10.data */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +38,7 @@
 		6012D8061D7D9E1700297AA5 /* emojis91data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emojis91data.plist; sourceTree = "<group>"; };
 		6012D8071D7D9E1700297AA5 /* emojisex.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = emojisex.data; sourceTree = "<group>"; };
 		6012D8081D7D9E1700297AA5 /* emojisexdata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emojisexdata.plist; sourceTree = "<group>"; };
-		604F2E171D780E7E0075A339 /* Category-Emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Category-Emoji.json"; sourceTree = "<group>"; };
+		604F2E171D780E7E0075A339 /* Category-Emoji_10.0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Category-Emoji_10.0.json"; sourceTree = "<group>"; };
 		609507D11BC7A09C000D88EC /* Category-Emoji_9.1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Category-Emoji_9.1.json"; sourceTree = "<group>"; };
 		60BF6FC51BC796C000DC3D63 /* EmojiCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BF6FC91BC796C000DC3D63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,6 +50,10 @@
 		60BF6FD41BC796C000DC3D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60BF6FD71BC796C000DC3D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60BF6FD91BC796C000DC3D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60CBECCA1E07BBB600F17FA9 /* emojis10.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emojis10.plist; sourceTree = "<group>"; };
+		60CBECCB1E07BBB600F17FA9 /* emojis10data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emojis10data.plist; sourceTree = "<group>"; };
+		60CBECCE1E07BBD000F17FA9 /* Category-Emoji_10.2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Category-Emoji_10.2.json"; sourceTree = "<group>"; };
+		60CBECD01E07C1F800F17FA9 /* emojisex_10.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = emojisex_10.data; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,12 +95,16 @@
 				60BF6FD61BC796C000DC3D63 /* LaunchScreen.storyboard */,
 				60BF6FD91BC796C000DC3D63 /* Info.plist */,
 				609507D11BC7A09C000D88EC /* Category-Emoji_9.1.json */,
-				604F2E171D780E7E0075A339 /* Category-Emoji.json */,
+				604F2E171D780E7E0075A339 /* Category-Emoji_10.0.json */,
+				60CBECCE1E07BBD000F17FA9 /* Category-Emoji_10.2.json */,
 				6012D7EB1D7D721100297AA5 /* emojis.data */,
 				6012D7ED1D7D722800297AA5 /* emojis.plist */,
 				6012D7FC1D7D945800297AA5 /* emojis91.plist */,
 				6012D8061D7D9E1700297AA5 /* emojis91data.plist */,
+				60CBECCA1E07BBB600F17FA9 /* emojis10.plist */,
+				60CBECCB1E07BBB600F17FA9 /* emojis10data.plist */,
 				6012D8071D7D9E1700297AA5 /* emojisex.data */,
+				60CBECD01E07C1F800F17FA9 /* emojisex_10.data */,
 				6012D8081D7D9E1700297AA5 /* emojisexdata.plist */,
 				6012D7FF1D7D945800297AA5 /* emojisex.plist */,
 				6012D7EE1D7D722800297AA5 /* emojisdata.plist */,
@@ -171,13 +183,17 @@
 				60BF6FD81BC796C000DC3D63 /* LaunchScreen.storyboard in Resources */,
 				6012D7F01D7D722800297AA5 /* emojisdata.plist in Resources */,
 				6012D80B1D7D9E1700297AA5 /* emojisexdata.plist in Resources */,
+				60CBECD11E07CAD400F17FA9 /* emojisex_10.data in Resources */,
 				60BF6FD51BC796C000DC3D63 /* Assets.xcassets in Resources */,
 				6012D8041D7D945800297AA5 /* emojisex.plist in Resources */,
-				604F2E181D780E7E0075A339 /* Category-Emoji.json in Resources */,
+				604F2E181D780E7E0075A339 /* Category-Emoji_10.0.json in Resources */,
 				609507D21BC7A09C000D88EC /* Category-Emoji_9.1.json in Resources */,
 				6012D7EF1D7D722800297AA5 /* emojis.plist in Resources */,
+				60CBECCF1E07BBD000F17FA9 /* Category-Emoji_10.2.json in Resources */,
+				60CBECCC1E07BBB600F17FA9 /* emojis10.plist in Resources */,
 				6012D80A1D7D9E1700297AA5 /* emojisex.data in Resources */,
 				6012D8011D7D945800297AA5 /* emojis91.plist in Resources */,
+				60CBECCD1E07BBB600F17FA9 /* emojis10data.plist in Resources */,
 				60BF6FD31BC796C000DC3D63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
