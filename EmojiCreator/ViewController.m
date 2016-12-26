@@ -122,62 +122,67 @@
 //
 //    [self exportAllEmojiImages:jsonPath withImageNamePrefix:@"emojis102"];
 
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"emojisex_10" ofType:@"data"];
-    NSData *data = [NSData dataWithContentsOfFile:path];
-    [self updateNewEmoji: newAddEmojiList
-   iniOS10WithUpdateData:data
- withOriginPlistFilePath:emojis10Path
-           withJsonFile: jsonPath
-       withDataPlistFile: emojis10DataPath
-         imageNamePrefix:@"emojis102"
-           withMultiSkin: false];
-
-    NSString *dataPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/emojisex.data"];
-    NSString *outputhPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/output/"];
-    NSString *updatedPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/UpdatedPlist/"];
-
-    NSString *data102PlistPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/emojis102data.plist"];
-    NSString *emoji102PlistPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/emojis102.plist"];
-
-    NSString *data10PlistPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/emojis10data.plist"];
-    NSString *emoji10PlistPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/emojis10.plist"];
-
-    NSString *data91PlistPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/emojis91data.plist"];
-    NSString *emoji91PlistPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/emojis91.plist"];
-
-    NSString *dataexPlistPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/emojisexdata.plist"];
-    NSString *emojiexPlistPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/emojisex.plist"];
-
-    [self exportImageFromDataPath:dataPath byDataPlist:data102PlistPath byEmojiPlist:emoji102PlistPath saveTo:outputhPath];
-    [self exportImageFromDataPath:dataPath byDataPlist:data10PlistPath byEmojiPlist:emoji10PlistPath saveTo:outputhPath];
-    [self exportImageFromDataPath:dataPath byDataPlist:data91PlistPath byEmojiPlist:emoji91PlistPath saveTo:outputhPath];
-    [self exportImageFromDataPath:dataPath byDataPlist:dataexPlistPath byEmojiPlist:emojiexPlistPath saveTo:outputhPath];
-
-    [self updateDataPlist:data102PlistPath byImagePath:outputhPath withEmojiPlist:emoji102PlistPath imagePrefix:@"emojis" includeMultiSkins:false];
-
-    [self updateEmojiDataPlistWithDataPath:[updatedPath stringByAppendingString:@"emojis102data.plist.data"]
-                              dataPlistPath:data10PlistPath
-                                 imagesPath:outputhPath
-                             emojiPlistPath:emoji10PlistPath
-                         baseEmojiPlistPath:emoji102PlistPath
-                     baseEmojiDataPlistPath:data102PlistPath
-                         includeMultiSkins:false];
-
-    [self updateEmojiDataPlistWithDataPath:[updatedPath stringByAppendingString:@"emojis10data.plist.data"]
-                             dataPlistPath:data91PlistPath
-                                imagesPath:outputhPath
-                            emojiPlistPath:emoji91PlistPath
-                        baseEmojiPlistPath:emoji10PlistPath
-                    baseEmojiDataPlistPath:data10PlistPath
-                         includeMultiSkins:false];
-
-    [self updateEmojiDataPlistWithDataPath:[updatedPath stringByAppendingString:@"emojis91data.plist.data"]
-                             dataPlistPath:dataexPlistPath
-                                imagesPath:outputhPath
-                            emojiPlistPath:emojiexPlistPath
-                        baseEmojiPlistPath:emoji91PlistPath
-                    baseEmojiDataPlistPath:data91PlistPath
-                         includeMultiSkins:false];
+//    NSString *path = [[NSBundle mainBundle] pathForResource:@"emojisex_10" ofType:@"data"];
+//    NSData *data = [NSData dataWithContentsOfFile:path];
+//    [self updateNewEmoji: newAddEmojiList
+//   iniOS10WithUpdateData:data
+// withOriginPlistFilePath:emojis10Path
+//           withJsonFile: jsonPath
+//       withDataPlistFile: emojis10DataPath
+//         imageNamePrefix:@"emojis102"
+//           withMultiSkin: false];
+//
+//    NSString *dataPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/emojisex.data"];
+//    NSString *outputhPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/output/"];
+//    NSString *updatedPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/UpdatedPlist/"];
+//
+//    NSString *data102PlistPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/emojis102data.plist"];
+//    NSString *emoji102PlistPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/emojis102.plist"];
+//
+//    NSString *data10PlistPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/emojis10data.plist"];
+//    NSString *emoji10PlistPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/emojis10.plist"];
+//
+//    NSString *data91PlistPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/emojis91data.plist"];
+//    NSString *emoji91PlistPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/emojis91.plist"];
+//
+//    NSString *dataexPlistPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/emojisexdata.plist"];
+//    NSString *emojiexPlistPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/emojisex.plist"];
+//
+//    [self exportImageFromDataPath:dataPath byDataPlist:data102PlistPath byEmojiPlist:emoji102PlistPath saveTo:outputhPath];
+//    [self exportImageFromDataPath:dataPath byDataPlist:data10PlistPath byEmojiPlist:emoji10PlistPath saveTo:outputhPath];
+//    [self exportImageFromDataPath:dataPath byDataPlist:data91PlistPath byEmojiPlist:emoji91PlistPath saveTo:outputhPath];
+//    [self exportImageFromDataPath:dataPath byDataPlist:dataexPlistPath byEmojiPlist:emojiexPlistPath saveTo:outputhPath];
+//
+//    [self updateDataPlist:data102PlistPath byImagePath:outputhPath withEmojiPlist:emoji102PlistPath imagePrefix:@"emojis" includeMultiSkins:false];
+//
+//    [self updateEmojiDataPlistWithDataPath:[updatedPath stringByAppendingString:@"emojis102data.plist.data"]
+//                              dataPlistPath:data10PlistPath
+//                                 imagesPath:outputhPath
+//                             emojiPlistPath:emoji10PlistPath
+//                         baseEmojiPlistPath:emoji102PlistPath
+//                    baseEmojiDataPlistPath:data102PlistPath
+//                 newBaseEmojiDataPlistPath:[updatedPath stringByAppendingString:@"emojis102data.plist"]
+//                         includeMultiSkins:false];
+//
+//    [self updateEmojiDataPlistWithDataPath:[updatedPath stringByAppendingString:@"emojis10data.plist.data"]
+//                             dataPlistPath:data91PlistPath
+//                                imagesPath:outputhPath
+//                            emojiPlistPath:emoji91PlistPath
+//                        baseEmojiPlistPath:emoji10PlistPath
+//                    baseEmojiDataPlistPath:data10PlistPath
+//                 newBaseEmojiDataPlistPath:[updatedPath stringByAppendingString:@"emojis10data.plist"]
+//                         includeMultiSkins:false];
+//
+//    [self updateEmojiDataPlistWithDataPath:[updatedPath stringByAppendingString:@"emojis91data.plist.data"]
+//                             dataPlistPath:dataexPlistPath
+//                                imagesPath:outputhPath
+//                            emojiPlistPath:emojiexPlistPath
+//                        baseEmojiPlistPath:emoji91PlistPath
+//                    baseEmojiDataPlistPath:data91PlistPath
+//                 newBaseEmojiDataPlistPath:[updatedPath stringByAppendingString:@"emojis91data.plist"]
+//                         includeMultiSkins:false];
+    [self updateOldDataPlist:[NSHomeDirectory() stringByAppendingString:@"/Documents/emojisdata.plist"]
+              withEmojiPlist:[NSHomeDirectory() stringByAppendingString:@"/Documents/emojis.plist"] includeMultiSkins:false];
 
 }
 
@@ -615,12 +620,7 @@ withOriginPlistFilePath: (NSString *)plistPath
             NSMutableDictionary *mutDic = [NSMutableDictionary dictionary];
             mutDic[@"symbol"] = currEmoji;
 
-//            if (![self isHasEmoji:currEmoji inEmojis:newEmojis]) {
-//                EmojiModel *oldModel = [self getEmojiModelWithSymbol:currEmoji inEmojisModel:oldAllEmojis];
-//                mutDic[@"imageName"] = oldModel.imageName;
-//            } else {
-                mutDic[@"imageName"] = [NSString stringWithFormat:@"%@_%i_%i_1.png", imageNamePrefix, i, j];
-//            }
+            mutDic[@"imageName"] = [NSString stringWithFormat:@"%@_%i_%i_1.png", imageNamePrefix, i, j];
             [emojiExCategoryArray addObject:mutDic];
 
 
@@ -674,7 +674,6 @@ withOriginPlistFilePath: (NSString *)plistPath
                         if (subOldModel) {
                             NSMutableDictionary *mutSubDic = [NSMutableDictionary dictionary];
                             mutSubDic[@"symbol"] = subSymbol;
-//                            mutSubDic[@"imageName"] = subOldModel.imageName;
                             mutSubDic[@"imageName"] = [NSString stringWithFormat:@"%@_%i_%i_%i.png", imageNamePrefix, i, j, k];
                             [subEmojiArray addObject:mutSubDic];
 
@@ -1051,7 +1050,6 @@ withOriginPlistFilePath: (NSString *)plistPath
     NSArray *emojisPlist = [NSArray arrayWithContentsOfFile:emojiPlistPath];
     NSFileHandle *dataHandle = [NSFileHandle fileHandleForReadingAtPath:dataPath];
     [[NSFileManager defaultManager] createDirectoryAtPath:savePath withIntermediateDirectories:YES attributes:nil error:nil];
-//    NSMutableData *mutData = [NSMutableData data];
     for (int i = 0; i < emojisPlist.count; i++) {
         NSDictionary *emojisInfo = emojisPlist[i];
         NSArray *emojisArray = emojisInfo[@"emojis"];
@@ -1059,8 +1057,6 @@ withOriginPlistFilePath: (NSString *)plistPath
         for (int j = 0; j < emojisArray.count; j++) {
             NSDictionary *dic = emojisArray[j];
             NSArray *subEmojis = dic[@"subemojis"];
-//            NSString *imageName = dic[@"imageName"];
-
 
             if (subEmojis.count > 0) {
                 for (int k = 0; k < subEmojis.count; k++) {
@@ -1073,7 +1069,6 @@ withOriginPlistFilePath: (NSString *)plistPath
 
                     NSString *subSymbol = subEmojis[k][@"symbol"];
 
-//                    NSString *imageName = [NSString stringWithFormat:@"%@_%i.png", subSymbol, j];
                     NSString *subImageName = [NSString stringWithFormat:@"%lli-%lu.png", offset, (unsigned long)length];
                     NSString *imagePath = [savePath stringByAppendingString:subImageName];
                     [imageData writeToFile:imagePath atomically:true];
@@ -1090,7 +1085,6 @@ withOriginPlistFilePath: (NSString *)plistPath
                 NSData *imageData = [dataHandle readDataOfLength:length];
 
                 NSString *currSymbol = dic[@"symbol"];
-//                NSString *imageName = [NSString stringWithFormat:@"%@_%i.png", currSymbol, 1];
                 NSString *imagePath = [savePath stringByAppendingString:imageName];
                 [imageData writeToFile:imagePath atomically:true];
                 if (imageData.length == 0) {
@@ -1100,15 +1094,6 @@ withOriginPlistFilePath: (NSString *)plistPath
         }
     }
 
-//    NSString *outputhPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/UpdatedPlist/"];
-//    [[NSFileManager defaultManager] createDirectoryAtPath:outputhPath withIntermediateDirectories:YES attributes:nil error:nil];
-//
-//    NSString *dataPlistFileName = [[NSURL URLWithString:dataPlistPath] lastPathComponent];
-//    NSString *path = [outputhPath stringByAppendingString:dataPlistFileName];
-//    [emojisDataPlist writeToFile:path atomically:true];
-//
-//    path = [outputhPath stringByAppendingString:[NSString stringWithFormat:@"%@.data", dataPlistFileName]];
-//    [mutData writeToFile:path atomically:true];
 
     NSLog(@"finished export ...");
 }
@@ -1119,36 +1104,29 @@ withOriginPlistFilePath: (NSString *)plistPath
             imagePrefix:(NSString *)imagePrefix
       includeMultiSkins: (BOOL)includeMultiSkins {
     NSMutableArray *emojisDataPlist = [NSMutableArray arrayWithContentsOfFile:dataPlistPath];
-    NSArray *emojisPlist = [NSArray arrayWithContentsOfFile:emojiPlistPath];
+    NSMutableArray *emojisPlist = [NSMutableArray arrayWithContentsOfFile:emojiPlistPath];
 
     NSMutableData *mutData = [NSMutableData data];
-    long offset = 0;
+    unsigned long long offset = 0;
     for (int i = 0; i < emojisPlist.count; i++) {
-        NSDictionary *emojisInfo = emojisPlist[i];
+        NSMutableDictionary *emojisInfo = emojisPlist[i];
         NSMutableDictionary *emojiDataInfo = emojisDataPlist[i];
-        NSArray *emojisArray = emojisInfo[@"emojis"];
+        NSMutableArray *emojisArray = emojisInfo[@"emojis"];
 
         for (int j = 0; j < emojisArray.count; j++) {
-            NSDictionary *dic = emojisArray[j];
+            NSMutableDictionary *dic = emojisArray[j];
             NSArray *subEmojis = dic[@"subemojis"];
             NSString *imageName = dic[@"imageName"];
 
-//            BOOL jump = false;
-//            if ([dic[@"symbol"] isEqualToString:@"🏇"]) {
-//                jump = true;
-//            }
-//            if (subEmojis.count > 0 && !jump) {
+
             if (subEmojis.count > 0) {
                 for (int k = 0; k < subEmojis.count; k++) {
-                    NSDictionary *subemojiInfo = subEmojis[k];
+                    NSMutableDictionary *subemojiInfo = subEmojis[k];
                     NSString *subEmojiImageName = subemojiInfo[@"imageName"];
                     NSMutableDictionary *dataDic = emojiDataInfo[subEmojiImageName];
                     long long subOffset = [dataDic[@"offset"] longLongValue];
                     NSUInteger subLength = [dataDic[@"length"] unsignedIntegerValue];
                     NSString *subImageName = [NSString stringWithFormat:@"%llu-%li.png", subOffset, subLength];
-
-//                    NSString *filePath = [imagePath stringByAppendingString:[NSString stringWithFormat:@"%@_%i.png", subemojiInfo[@"symbol"], j]];
-//                    NSString *subImageName = [NSString stringWithFormat:@"%@_%i_%i_%i.png",imagePrefix, i, j, k];
 
                     NSString *filePath = [imagePath stringByAppendingString:subImageName];
                     NSData *imageData = [[NSData alloc] initWithContentsOfFile:filePath];
@@ -1157,13 +1135,20 @@ withOriginPlistFilePath: (NSString *)plistPath
                         if (imageData.length == 0) {
                             NSLog(@"error");
                         }
+                        subemojiInfo[@"imageName"] = [NSString stringWithFormat:@"%llu-%li", offset, imageData.length];
                         dataDic[@"offset"] = @(offset);
                         dataDic[@"length"] = @(imageData.length);
+
+                        if (k == 1) {
+                            dic[@"imageName"] = subemojiInfo[@"imageName"];
+                        }
+
                         offset += imageData.length;
 
                         [mutData appendData:imageData];
                     } else {
                         [emojiDataInfo removeObjectForKey:subEmojiImageName];
+                        [subemojiInfo removeObjectForKey:@"imageName"];
                     }
                 }
             } else {
@@ -1172,13 +1157,11 @@ withOriginPlistFilePath: (NSString *)plistPath
                 NSUInteger subLength = [dataDic[@"length"] unsignedIntegerValue];
                 NSString *subImageName = [NSString stringWithFormat:@"%llu-%li.png", subOffset, subLength];
                 NSString *filePath = [imagePath stringByAppendingString: subImageName];
-//                NSString *imageName = [NSString stringWithFormat:@"%@_%i_%i_%i.png",imagePrefix, i, j, 1];
-//                NSString *filePath = [imagePath stringByAppendingString:imageName];
                 NSData *imageData = [[NSData alloc] initWithContentsOfFile:filePath];
                 if (imageData.length == 0) {
                     NSLog(@"error");
                 }
-
+                dic[@"imageName"] = [NSString stringWithFormat:@"%llu-%li", offset, imageData.length];
                 dataDic[@"offset"] = @(offset);
                 dataDic[@"length"] = @(imageData.length);
                 offset += imageData.length;
@@ -1195,6 +1178,10 @@ withOriginPlistFilePath: (NSString *)plistPath
     NSString *path = [outputhPath stringByAppendingString:dataPlistFileName];
     [emojisDataPlist writeToFile:path atomically:true];
 
+    NSString *emojiPlistFileName = [[NSURL URLWithString:emojiPlistPath] lastPathComponent];
+    NSString *emojiPath = [outputhPath stringByAppendingString:emojiPlistFileName];
+    [emojisPlist writeToFile:emojiPath atomically:true];
+
     path = [outputhPath stringByAppendingString:[NSString stringWithFormat:@"%@.data", dataPlistFileName]];
     [mutData writeToFile:path atomically:true];
 }
@@ -1205,38 +1192,34 @@ withOriginPlistFilePath: (NSString *)plistPath
                           emojiPlistPath:(NSString *)emojiPlistPath
                       baseEmojiPlistPath:(NSString *)baseEmojiPlistPath
                   baseEmojiDataPlistPath:(NSString *)baseEmojiDataPlistPath
+               newBaseEmojiDataPlistPath: (NSString *)newBaseEmojiDataPlistPath
                        includeMultiSkins: (BOOL)includeMultiSkins  {
     NSMutableArray *emojisDataPlist = [NSMutableArray arrayWithContentsOfFile:dataPlistPath];
-    NSArray *emojisPlist = [NSArray arrayWithContentsOfFile:emojiPlistPath];
+    NSMutableArray *emojisPlist = [NSMutableArray arrayWithContentsOfFile:emojiPlistPath];
     NSArray *baseEmojisPlist = [NSArray arrayWithContentsOfFile:baseEmojiPlistPath];
     NSArray *baseEmojisDataPlist = [NSArray arrayWithContentsOfFile:baseEmojiDataPlistPath];
+    NSArray *newBaseEmojisDataPlist = [NSArray arrayWithContentsOfFile:newBaseEmojiDataPlistPath];
 
 
     NSMutableData *mutData = [NSMutableData dataWithContentsOfFile:dataPath];
     NSFileHandle *fileHandle = [NSFileHandle fileHandleForReadingAtPath:dataPath];
-    long offset = mutData.length;
+    unsigned long long offset = mutData.length;
     int count = 0;
     for (int i = 0; i < emojisPlist.count; i++) {
-        NSDictionary *emojisInfo = emojisPlist[i];
+        NSMutableDictionary *emojisInfo = emojisPlist[i];
         NSMutableDictionary *emojiDataInfo = emojisDataPlist[i];
-        NSArray *emojisArray = emojisInfo[@"emojis"];
+        NSMutableArray *emojisArray = emojisInfo[@"emojis"];
 
         for (int j = 0; j < emojisArray.count; j++) {
-            NSDictionary *dic = emojisArray[j];
-            NSArray *subEmojis = dic[@"subemojis"];
+            NSMutableDictionary *dic = emojisArray[j];
+            NSMutableArray *subEmojis = dic[@"subemojis"];
             NSString *imageName = dic[@"imageName"];
 
-//            BOOL jump = false;
-//            if ([dic[@"symbol"] isEqualToString:@"🏇"]) {
-//                jump = true;
-//            }
 
-//            if (subEmojis.count > 0 && !jump) {
             if (subEmojis.count > 0) {
-                for (int j = 0; j < subEmojis.count; j++) {
-//                    NSDictionary *subemojiInfo = subEmojis[j];
-                    NSString *subSymbol = subEmojis[j][@"symbol"];
-                    NSString *subSymbolImageName = subEmojis[j][@"imageName"];
+                for (int k = 0; k < subEmojis.count; k++) {
+                    NSString *subSymbol = subEmojis[k][@"symbol"];
+                    NSString *subSymbolImageName = subEmojis[k][@"imageName"];
                     NSMutableDictionary *dataDic = emojiDataInfo[subSymbolImageName];
                     long long existOffset = [dataDic[@"offset"] longLongValue];
                     NSUInteger length = [dataDic[@"length"] unsignedIntegerValue];
@@ -1244,6 +1227,7 @@ withOriginPlistFilePath: (NSString *)plistPath
 
                     NSString *baseSubEmojiImageName = [self findEmojiImageNameIn:baseEmojisPlist byEmojiSymbol:subSymbol];
                     NSDictionary *imageDataInfoDic = [self findEmojiDataInfoIn:baseEmojisDataPlist byImageName:baseSubEmojiImageName];
+                    NSDictionary *newImageDataInfoDic = [self findEmojiDataInfoIn:newBaseEmojisDataPlist byImageName:baseSubEmojiImageName];
                     long long existOffset1 = 0;
                     NSUInteger length1 = 0;
 
@@ -1252,10 +1236,10 @@ withOriginPlistFilePath: (NSString *)plistPath
                         length1 = [imageDataInfoDic[@"length"] unsignedIntegerValue];
                     }
 
-                    if (includeMultiSkins || j == 1) {
+                    if (includeMultiSkins || k == 1) {
                         if (existOffset == existOffset1 && length == length1) {
-                            dataDic[@"offset"] = @(existOffset1);
-                            dataDic[@"length"] = @(length1);
+                            dataDic[@"offset"] = @([newImageDataInfoDic[@"offset"] longLongValue]);
+                            dataDic[@"length"] = @([newImageDataInfoDic[@"length"] longLongValue]);
                         } else {
                             NSString *filePath = [imagesPath stringByAppendingString: subImageName];
                             NSData *imageData = [[NSData alloc] initWithContentsOfFile:filePath];
@@ -1270,14 +1254,21 @@ withOriginPlistFilePath: (NSString *)plistPath
                             [mutData appendData:imageData];
                             count++;
                         }
+
+                        subEmojis[k][@"imageName"] = [NSString stringWithFormat:@"%@-%@",dataDic[@"offset"], dataDic[@"length"]];
+                        if (k == 1) {
+                            dic[@"imageName"] = [NSString stringWithFormat:@"%@-%@",dataDic[@"offset"], dataDic[@"length"]];
+                        }
                     } else {
                         [emojiDataInfo removeObjectForKey:subSymbolImageName];
+                        [subEmojis[k] removeObjectForKey:@"imageName"];
                     }
                 }
             } else {
 
                 NSString *subEmojiImageName = [self findEmojiImageNameIn:baseEmojisPlist byEmojiSymbol:dic[@"symbol"]];
                 NSDictionary *imageDataInfoDic = [self findEmojiDataInfoIn:baseEmojisDataPlist byImageName:subEmojiImageName];
+                NSDictionary *newImageDataInfoDic = [self findEmojiDataInfoIn:newBaseEmojisDataPlist byImageName:subEmojiImageName];
                 NSMutableDictionary *dataDic = emojiDataInfo[imageName];
                 long long existOffset = [dataDic[@"offset"] longLongValue];
                 NSUInteger length = [dataDic[@"length"] unsignedIntegerValue];
@@ -1289,29 +1280,27 @@ withOriginPlistFilePath: (NSString *)plistPath
                     length1 = [imageDataInfoDic[@"length"] unsignedIntegerValue];
                 }
 
-                if (includeMultiSkins || j == 1) {
-                    if (existOffset == existOffset1 && length == length1) {
-                        dataDic[@"offset"] = @(existOffset);
-                        dataDic[@"length"] = @(length);
-                        [fileHandle seekToFileOffset:existOffset];
-                    } else {
-                        NSString *subImageName = [NSString stringWithFormat:@"%llu-%li.png",existOffset, length];
-                        NSString *filePath = [imagesPath stringByAppendingString: subImageName];
-                        NSData *imageData = [[NSData alloc] initWithContentsOfFile:filePath];
-                        if (imageData.length == 0) {
-                            NSLog(@"error");
-                        }
-
-                        NSMutableDictionary *dataDic = emojiDataInfo[imageName];
-                        dataDic[@"offset"] = @(offset);
-                        dataDic[@"length"] = @(imageData.length);
-                        offset += imageData.length;
-
-                        [mutData appendData:imageData];
-                        count++;
-                    }
+                if (existOffset == existOffset1 && length == length1) {
+                    dataDic[@"offset"] = @([newImageDataInfoDic[@"offset"] longLongValue]);
+                    dataDic[@"length"] = @([newImageDataInfoDic[@"length"] unsignedIntegerValue]);
+                    [fileHandle seekToFileOffset:existOffset];
+                    dic[@"imageName"] = [NSString stringWithFormat:@"%@-%@",dataDic[@"offset"], dataDic[@"length"]];
                 } else {
-                    [emojiDataInfo removeObjectForKey:imageName];
+                    NSString *subImageName = [NSString stringWithFormat:@"%llu-%li.png",existOffset, length];
+                    NSString *filePath = [imagesPath stringByAppendingString: subImageName];
+                    NSData *imageData = [[NSData alloc] initWithContentsOfFile:filePath];
+                    if (imageData.length == 0) {
+                        NSLog(@"error");
+                    }
+
+                    dic[@"imageName"] = [NSString stringWithFormat:@"%llu-%li",offset, imageData.length];
+                    NSMutableDictionary *dataDic = emojiDataInfo[imageName];
+                    dataDic[@"offset"] = @(offset);
+                    dataDic[@"length"] = @(imageData.length);
+                    offset += imageData.length;
+
+                    [mutData appendData:imageData];
+                    count++;
                 }
             }
         }
@@ -1326,8 +1315,72 @@ withOriginPlistFilePath: (NSString *)plistPath
     NSString *path = [outputhPath stringByAppendingString:dataPlistFileName];
     [emojisDataPlist writeToFile:path atomically:true];
 
+    NSString *emojiPlistFileName = [[NSURL URLWithString:emojiPlistPath] lastPathComponent];
+    NSString *emojiPath = [outputhPath stringByAppendingString:emojiPlistFileName];
+    [emojisPlist writeToFile:emojiPath atomically:true];
+
     path = [outputhPath stringByAppendingString:[NSString stringWithFormat:@"%@.data", dataPlistFileName]];
     [mutData writeToFile:path atomically:true];
+}
+
+- (void)updateOldDataPlist: (NSString *)dataPlistPath
+         withEmojiPlist: (NSString *)emojiPlistPath
+      includeMultiSkins: (BOOL)includeMultiSkins {
+    NSMutableArray *emojisDataPlist = [NSMutableArray arrayWithContentsOfFile:dataPlistPath];
+    NSMutableArray *emojisPlist = [NSMutableArray arrayWithContentsOfFile:emojiPlistPath];
+
+
+    for (int i = 0; i < emojisPlist.count; i++) {
+        NSMutableDictionary *emojisInfo = emojisPlist[i];
+        NSMutableDictionary *emojiDataInfo = emojisDataPlist[i];
+        NSMutableArray *emojisArray = emojisInfo[@"emojis"];
+
+        for (int j = 0; j < emojisArray.count; j++) {
+            NSMutableDictionary *dic = emojisArray[j];
+            NSArray *subEmojis = dic[@"subemojis"];
+            NSString *imageName = dic[@"imageName"];
+
+
+            if (subEmojis.count > 0) {
+                for (int k = 0; k < subEmojis.count; k++) {
+                    NSMutableDictionary *subemojiInfo = subEmojis[k];
+                    NSString *subEmojiImageName = subemojiInfo[@"imageName"];
+                    NSMutableDictionary *dataDic = emojiDataInfo[subEmojiImageName];
+                    long long subOffset = [dataDic[@"offset"] longLongValue];
+                    NSUInteger subLength = [dataDic[@"length"] unsignedIntegerValue];
+
+                    if (includeMultiSkins || k == 1) {
+
+                        subemojiInfo[@"imageName"] = [NSString stringWithFormat:@"%llu-%li", subOffset, subLength];
+
+                        if (k == 1) {
+                            dic[@"imageName"] = subemojiInfo[@"imageName"];
+                        }
+
+                    } else {
+                        [emojiDataInfo removeObjectForKey:subEmojiImageName];
+                        [subemojiInfo removeObjectForKey:@"imageName"];
+                    }
+                }
+            } else {
+                NSMutableDictionary *dataDic = emojiDataInfo[imageName];
+                long long subOffset = [dataDic[@"offset"] longLongValue];
+                NSUInteger subLength = [dataDic[@"length"] unsignedIntegerValue];
+                dic[@"imageName"] = [NSString stringWithFormat:@"%llu-%li", subOffset, subLength];
+            }
+        }
+    }
+
+    NSString *outputhPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/UpdatedPlist/"];
+    [[NSFileManager defaultManager] createDirectoryAtPath:outputhPath withIntermediateDirectories:YES attributes:nil error:nil];
+
+    NSString *dataPlistFileName = [[NSURL URLWithString:dataPlistPath] lastPathComponent];
+    NSString *path = [outputhPath stringByAppendingString:dataPlistFileName];
+    [emojisDataPlist writeToFile:path atomically:true];
+
+    NSString *emojiPlistFileName = [[NSURL URLWithString:emojiPlistPath] lastPathComponent];
+    NSString *emojiPath = [outputhPath stringByAppendingString:emojiPlistFileName];
+    [emojisPlist writeToFile:emojiPath atomically:true];
 }
 
 // iOS10 beta版有些多肤色的Emoji无法通过简单的字符拼接来实现，因为iOS10添加支持了一种全新的emoji构造方式：
