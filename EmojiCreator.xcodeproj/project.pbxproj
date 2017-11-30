@@ -17,6 +17,7 @@
 		6012D80B1D7D9E1700297AA5 /* emojisexdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6012D8081D7D9E1700297AA5 /* emojisexdata.plist */; };
 		604F2E181D780E7E0075A339 /* Category-Emoji_10.0.json in Resources */ = {isa = PBXBuildFile; fileRef = 604F2E171D780E7E0075A339 /* Category-Emoji_10.0.json */; };
 		609507D21BC7A09C000D88EC /* Category-Emoji_9.1.json in Resources */ = {isa = PBXBuildFile; fileRef = 609507D11BC7A09C000D88EC /* Category-Emoji_9.1.json */; };
+		60A53F091F8E434C008F62B6 /* emojis102.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60A53F081F8E434C008F62B6 /* emojis102.plist */; };
 		60BF6FCA1BC796C000DC3D63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BF6FC91BC796C000DC3D63 /* main.m */; };
 		60BF6FCD1BC796C000DC3D63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BF6FCC1BC796C000DC3D63 /* AppDelegate.m */; };
 		60BF6FD01BC796C000DC3D63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BF6FCF1BC796C000DC3D63 /* ViewController.m */; };
@@ -40,6 +41,7 @@
 		6012D8081D7D9E1700297AA5 /* emojisexdata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emojisexdata.plist; sourceTree = "<group>"; };
 		604F2E171D780E7E0075A339 /* Category-Emoji_10.0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Category-Emoji_10.0.json"; sourceTree = "<group>"; };
 		609507D11BC7A09C000D88EC /* Category-Emoji_9.1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Category-Emoji_9.1.json"; sourceTree = "<group>"; };
+		60A53F081F8E434C008F62B6 /* emojis102.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emojis102.plist; sourceTree = "<group>"; };
 		60BF6FC51BC796C000DC3D63 /* EmojiCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BF6FC91BC796C000DC3D63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60BF6FCB1BC796C000DC3D63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				6012D8061D7D9E1700297AA5 /* emojis91data.plist */,
 				60CBECCA1E07BBB600F17FA9 /* emojis10.plist */,
 				60CBECCB1E07BBB600F17FA9 /* emojis10data.plist */,
+				60A53F081F8E434C008F62B6 /* emojis102.plist */,
 				6012D8071D7D9E1700297AA5 /* emojisex.data */,
 				60CBECD01E07C1F800F17FA9 /* emojisex_10.data */,
 				6012D8081D7D9E1700297AA5 /* emojisexdata.plist */,
@@ -183,6 +186,7 @@
 				60BF6FD81BC796C000DC3D63 /* LaunchScreen.storyboard in Resources */,
 				6012D7F01D7D722800297AA5 /* emojisdata.plist in Resources */,
 				6012D80B1D7D9E1700297AA5 /* emojisexdata.plist in Resources */,
+				60A53F091F8E434C008F62B6 /* emojis102.plist in Resources */,
 				60CBECD11E07CAD400F17FA9 /* emojisex_10.data in Resources */,
 				60BF6FD51BC796C000DC3D63 /* Assets.xcassets in Resources */,
 				6012D8041D7D945800297AA5 /* emojisex.plist in Resources */,
